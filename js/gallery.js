@@ -66,7 +66,6 @@ const images = [
 
 
 const itemList = document.querySelector(".gallery");
-const imageItem = document.querySelectorAll(".gallery-image")
 const itemArray = images.map(image =>
     `<li class="gallery-item">
         <a class="gallery-link" href="${image.original}">
